@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 
 * {
     margin: 0;
@@ -847,492 +847,49 @@ nav ul li:nth-child(4) {
     animation-delay: 0.8s;
 }
 
-/* ======== Mobile Phones ======== */
-@media (max-width: 480px) {
 
-    /* Navigation */
-    nav {
-        flex-direction: column;
-        align-items: center;
-        padding: 10px 0;
-    }
 
-    nav img {
-        width: 70px;
-        padding-left: 0;
-        margin-bottom: 10px;
-    }
 
-    nav ul {
-        flex-direction: column;
+
+@media (max-width: 768px) {
+
+    * {
+        margin: 0;
         padding: 0;
+        box-sizing: border-box;
     }
 
-    nav li {
-        padding: 8px 0;
-        font-size: 14px;
+    header {
+        height: 350px; 
+        background-position: center;
+        background-size: cover;
     }
 
-    /* Header */
-    .aa {
-        padding-top: 60px;
-    }
-
-    .aa h1 {
-        font-size: 22px;
-        line-height: 1.2;
-    }
-
-    .aa p {
-        font-size: 14px;
-        padding-top: 10px;
-    }
-
-    .aa button {
-        padding: 8px 15px;
-        font-size: 13px;
-        margin-top: 20px;
-    }
-
-    /* About Section */
-    .dd {
-        flex-direction: column;
-        padding: 15px;
-        height: auto;
-    }
-
-    .dd p {
-        font-size: 14px;
-    }
-
-    .ff img {
-        width: 100%;
-        margin-top: 15px;
-    }
-
-    /* Special Offers */
-    .cost {
-        flex-direction: column;
-        gap: 20px;
-        padding-top: 30px;
-    }
-
-    .jj, .kk, .ll {
-        margin: 0 auto;
-    }
-
-    .jj img, .kk img, .ll img {
-        width: 150px;
-    }
-
-    .jj h2, .kk h2, .ll h2 {
-        font-size: 18px;
-    }
-
-    .jj p, .kk p, .ll p {
-        font-size: 13px;
-    }
-
-    .jj span, .kk span, .ll span, .jj del, .kk del, .ll del {
-        font-size: 13px;
-    }
-
-    /* Menu */
-    #menu .menu-items {
-        flex-direction: column;
-        gap: 20px;
-        margin: 20px;
-    }
-
-    #menu .menu-items .menu-item {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    #menu .menu-items .menu-item img {
-        width: 100px;
-        margin-bottom: 10px;
-    }
-
-    #menu .menu-items .menu-item h3 {
-        font-size: 16px;
-        padding-top: 10px;
-    }
-
-    #menu .menu-items .menu-item p {
-        font-size: 12px;
-    }
-
-    .mn button {
-        width: 140px;
-        padding: 8px 15px;
-        font-size: 13px;
-    }
-
-    /* Gallery */
-    .mm, .mg {
-        flex-direction: column;
+    
+    .images-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr; 
         gap: 10px;
+        width: 90%;
+        margin: auto;
     }
 
-    .mm img, .mg img {
+    .images-container img {
         width: 100%;
         height: auto;
-    }
-
-    /* Sections (Breakfast, Lunch, etc.) */
-    .secion {
-        flex-direction: column;
-        gap: 15px;
-        height: auto;
-        padding: 20px 0;
-    }
-
-    .cc, .cq, .cw, .ce {
-        margin-bottom: 10px;
-    }
-
-    /* Aside */
-    aside {
-        flex-direction: column;
-        padding: 15px;
-    }
-
-    .hee, .she {
-        width: 100%;
-        padding: 10px;
-    }
-
-    .hee h1, .hee h2 {
-        font-size: 16px;
-    }
-
-    .hee p {
-        font-size: 12px;
-    }
-
-    .nn img {
-        width: 30px;
-    }
-
-    /* Footer */
-    .vv p {
-        font-size: 12px;
-        padding: 10px;
-    }
-}
-@media (max-width: 480px) {
-
-    /* Gallery Images */
-    .mm img,
-    .mg img {
-        width: 200px;    
-        height: auto;       
-        margin-bottom: 10px; 
-        display: block;     
-    }
-
-    #menu .menu-items .menu-item img {
-        width: 100px;       
-        max-width: 150px;  
-        margin: 0 auto 10px auto;  
-        display: block;
-    }
-
-    #menu .menu-items .menu-item {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        gap: 10px;
-    }
-}
-@media (max-width: 480px) {
-
-    /* Gallery Container */
-    .mm, .mg {
-        display: flex;
-        flex-direction: row;   /* الصفوف أفقي */
-        flex-wrap: wrap;       /* يسمح للصور بالانتقال للسطر التالي */
-        justify-content: center; /* الصور في الوسط */
-        gap: 10px;             /* مسافة بين الصور */
-        padding: 0 10px;       /* حواف من الجوانب */
-    }
-
-    /* Gallery Images */
-    .mm img,
-    .mg img {
-        width: calc(50% - 10px);  /* نصف عرض الحاوية ناقص الفراغ */
-        height: auto;
-        display: block;
-        margin: 0;
-        border-radius: 10px;
-    }
-}
-@media (max-width: 480px) {
-
-    /* Header content */
-    .aa h1 {
-        font-size: 20px;
-        line-height: 1.3;
-    }
-    .aa p {
-        font-size: 14px;
-    }
-    .aa button {
-        padding: 8px 15px;
-        font-size: 13px;
-    }
-
-    /* About section */
-    .dd {
-        flex-direction: column;
-        padding: 15px;
-        gap: 15px; /* مسافة بين الفقرة والصورة */
-        height: auto;
-    }
-    .ff img {
-        width: 100%;
-        height: auto;
-        margin-top: 10px;
-    }
-
-    /* Special Offers */
-    .cost {
-        flex-direction: column;
-        gap: 20px;
-        padding: 20px 10px;
-    }
-    .jj, .kk, .ll {
-        margin: 0 auto;
-        text-align: center;
-    }
-    .jj img, .kk img, .ll img {
-        width: 80%;
-        max-width: 150px;
-    }
-
-    /* Menu Items */
-    #menu .menu-items {
-        flex-direction: column;
-        gap: 20px;
-        margin: 0 10px;
-    }
-    #menu .menu-items .menu-item {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        gap: 10px;
-    }
-    #menu .menu-items .menu-item img {
-        width: 80%;
-        max-width: 150px;
-    }
-
-    /* Gallery */
-    .mm, .mg {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 10px;
-        padding: 0 10px;
-    }
-    .mm img, .mg img {
-        width: calc(50% - 10px);
-        height: auto;
-        display: block;
-        margin: 0;
         border-radius: 10px;
     }
 
-    /* Sections (Breakfast, Lunch, etc.) */
-    .secion {
-        flex-direction: column;
-        gap: 15px;
-        height: auto;
-        padding: 10px;
-    }
-    .cc, .cq, .cw, .ce {
-        margin-bottom: 10px;
+
+    h1, h2, h3, p {
         text-align: center;
+        font-size: 16px;
     }
 
-    /* Aside */
-    aside {
-        flex-direction: column;
-        padding: 10px;
-        gap: 20px;
-    }
-    .hee, .she {
-        width: 100%;
-        padding: 10px;
-    }
-    .nn img {
-        width: 30px;
+    
+    section {
+        padding: 20px;
     }
 
-    /* Footer */
-    .vv p {
-        font-size: 12px;
-        padding: 10px;
-    }
-}
-
-=======
-*{
-    margin: 0px;
-    padding: 0px;
-}
-/*Mobile*/
-@media (max-width: 767px){
-
-}
-/*Small-Screens*/
-@media (min-width: 768px){
-
-}
-/*Midium-Screens*/
-@media (min-width: 992px){
-
-}
-/*Large-Screens*/
-@media (min-width: 1200px){
-
-}
-/*Custom*/
-@media (max-width: 1400px){
-
-}
-header{
-    background-image: url(../../OneDrive/Pictures/headerbg.png);
-    margin: 0;
-    padding: 0;
-    position: absolute;
-    top: 11%;
-    width: 100%;
-    height: 719px;
-}
-.content{
-    text-align: center;
-    margin: 60px;
-    padding: 200px;
-}
-h1{
-    color: white;
-    font-size: xx-large;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 10px;
-}
-.lo{
-    display: flex;
-    background-color: rgb(233, 241, 249);
-    width: 100%;
-    height: 65px;
-}
-h2{
-    margin: 0;
-    padding: 5px;
-    font-size: xx-large;
-    font-family: Arial, Helvetica, sans-serif;
-}
-hr{
-    position: absolute;
-    left: 500px;
-    width: 250px; 
-    border-bottom: 2px solid rgb(57, 116, 253) ;
-}
-h5{
-    padding: 30px;
-    font-size: medium;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-}
-h3{
-    color: white;
-    font-size: x-large;
-    font-family: Arial, Helvetica, sans-serif;
-    border-style: solid;
-    border-color: rgb(46, 121, 241);
-    width: 150px;
-    height: 35px;
-    position: absolute;
-    left: 538px;
-    padding: 10px;
-    border-width: 2px;
-    position: absolute;
-    left: 480;
-}
-.ap{
-   background-color: rgb(243, 243, 243);
-   width: 100%;
-   height: 300px;
-   margin: 0px;
-   margin: 0px;
-   padding: 0px;
-}
-h4{
-    padding: 90px;
-    text-align: center;
-    font-size: xx-large;
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgb(32, 34, 52);
-}
-p{
-    text-align: center;
-    color: rgb(103, 103, 103);
-    margin: 10px;
-    padding: 1px;
-    position: relative;
-    top: -70px;
-}
-.photo{
-    position: relative;
-    top: 50px;
-    text-align: center;
-    display: flex;
-    justify-content: space-around;
-}
-h6{
-    color: rgb(32, 34, 52);
-    font-size: medium;
-    font-family: Arial, Helvetica, sans-serif;
-}
-p1{
-    color: rgb(87, 87, 87)
-}
-.show{
-    background-color: rgb(240, 240, 240);
-    width: 100%;
-    display: flex;
-    text-align: center;
-}
-h6{
-    text-align: center;
-    font-size: x-large;
-    font-family: Arial, Helvetica, sans-serif;
-}
-p8{
-    position: absolute;
-    padding: 5px;
-    left: 515px;
-    color: rgb(72, 72, 72);
-}
-h2{
-    font-size: xx-large;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-}
-p9{
-   color: rgb(87, 87, 87);
-}
-.container{
-    position: absolute;
-    margin-top: -430px;
-    left: 520px;
-}
-.container h1{
-    padding-top: 1px;
-}
-form{
-    padding-top: 10px;
 }
 
